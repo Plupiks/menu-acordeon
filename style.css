@@ -28,7 +28,6 @@
 }
 
 .panel {
-  display: none;
   box-sizing: border-box;
   width: 500px;
   padding: 10px;
