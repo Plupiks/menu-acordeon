@@ -28,7 +28,6 @@
 }
 
 .panel {
-  box-sizing: border-box;
   width: 500px;
   padding: 10px;
   background-color: azure;
