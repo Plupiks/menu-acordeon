@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.acordeon {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.active,
+.acordeon:hover {
+  background-color: rgb(253, 253, 253);
+}
+
+.acordeon::after {
+  color: #777;
+  content: "\002b";
+  font-size: 25px;
+  float: right;
+}
+
+.active::after {
+  content: "\2212";
+  color: rgb(175, 175, 175);
+}
+
+.panel {
+  width: 500px;
+  padding: 10px;
+  background-color: azure;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-in-out;
+}
